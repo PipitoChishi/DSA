@@ -8,7 +8,7 @@ int main()
     int arr[8];
     int n = 8;
 
-    cout << "Please enter values" << endl;
+    cout << "Enter values" << endl;
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -32,9 +32,9 @@ int main()
         }
     }
 
-    cout << "Maximum volume: " << max_volume << endl;
+    cout << "Max volume: " << max_volume << endl;
 
-    // Calculate triangle area (assuming you want the area between the line joining the two points and the x-axis)
+    // Calculate triangle area
     int base = right - left;
     int height = abs(arr[left] - arr[right]);
     int triangle_area = (base * height) / 2;
