@@ -22,7 +22,7 @@ int main()
         if (last_bit_num1 == last_bit_num2)
         {
             cout << "These numbers aren't consecutive " << arr[i] << " and " << arr[i + 1] << endl;
-            cout<<" Number missing lies between " << arr[i] << " and " << arr[i + 1] << endl;
+            cout<<" Number missing lies  between " << arr[i] << " and " << arr[i + 1] << endl;
         }
     }
 }

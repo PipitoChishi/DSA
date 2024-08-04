@@ -15,6 +15,6 @@ int main()
     count++;
   }
 
-  cout<<" Total jumps before velocity turns zero "<<count<<endl;
+  cout<<" Total jumps  before velocity turns zero "<<count<<endl;
 
 }

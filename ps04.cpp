@@ -6,7 +6,7 @@ int main()
     int number, power, result=1;
     int increased_value, i;
 
-    cout<<"enter number and power "<<endl;
+    cout<<"enter number and  power "<<endl;
     cin>>number>>power;
 
     if (power % 2 == 0) 
