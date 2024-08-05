@@ -6,14 +6,14 @@ int main() {
     
     cout << "Input 10 numbers:" << endl;
     
-    for (x = 0; x < 10; ++x) {
+    for (x = 0; x < 10; x++) {
         cin >> numbers[x];
     }
     
     
-    for (x = 0; x < 10; ++x) {
-        for (y = x + 1; y < 10; ++y) {
-            for (z = 0; z < 10; ++z) {
+    for (x = 0; x < 10; x++) {
+        for (y = x + 1; y < 10; y++) {
+            for (z = 0; z < 10; z++) {
                 if (numbers[x] + numbers[y] == numbers[z]) {
                     cout << (x + 1) << " and " << (y + 1) << " sum to " << (z + 1) << endl;
                 }
