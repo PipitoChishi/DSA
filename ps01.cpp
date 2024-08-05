@@ -34,7 +34,7 @@ int main()
 
     cout << "Max volume: " << max_volume << endl;
 
-    // Calculate triangle area (assuming you want the area between the line joining the two points and the x-axis)
+    // Calculate triangle area
     int base = right - left;
     int height = abs(arr[left] - arr[right]);
     int triangle_area = (base * height) / 2;
