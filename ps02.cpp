@@ -4,9 +4,8 @@ using namespace std;
 int main() {
     int numbers[10], x, y, z;
     
-    cout << "Please input 10 numbers:" << endl;
+    cout << "Input 10 numbers:" << endl;
     
-    // Reading input values
     for (x = 0; x < 10; ++x) {
         cin >> numbers[x];
     }
