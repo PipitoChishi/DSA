@@ -1,0 +1,20 @@
+Write a program to calculate the number of times the velocity of a ball (falling from a height) needs to be halved before it becomes zero. The program stops when the velocity reaches zero.
+
+Algorithm:
+Start the program.
+
+Input the initial velocity:
+
+Prompt the user to enter the initial fall velocity.
+Store the value in a variable called velocity.
+  
+Initialize a counter:
+Initialize a variable count to keep track of how many times the velocity has been halved.
+  
+Halve the velocity repeatedly:
+Use a while loop to continuously halve the value of velocity until it reaches zero.
+For each halving, increment the count variable to track the number of times the halving operation is performed.
+
+Display the result:
+Once the loop ends (i.e., when velocity becomes zero), output the value of count, which indicates the total number of jumps (or halving operations) before the velocity turns zero.
+End the program.
