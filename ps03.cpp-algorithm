@@ -1,0 +1,23 @@
+Write a C++ program to take a series of numbers as input for an array. Then, create a second array where each element
+is the product of all elements from the first array except the one at the same index. 
+Finally, print the elements of the second array.
+
+Algorithm:
+Input the size of the array:
+Declare an integer variable size.
+Accept the size of the array from the user.
+  
+Input the values for the first array:
+Declare an integer array firstArray of size size.
+Accept size number of integers from the user to populate firstArray.
+  
+Calculate the total product of all elements:
+Declare an integer variable totalProduct and initialize it to 1.
+Loop through each element of firstArray and multiply it to totalProduct.
+  
+Create the second array:
+Declare an integer array secondArray of the same size as firstArray.
+For each element in firstArray, calculate the corresponding element in secondArray by dividing totalProduct by the current element of firstArray.
+
+Print the second array:
+Output all the elements of secondArray.
