@@ -1,0 +1,19 @@
+Write a C++ program to calculate 
+𝑎^𝑛(a raised to the power of n) using fewer iterations than 𝑛.
+The program should optimize the calculation by reducing the number of iterations, and should handle both even and odd powers efficiently.
+
+Algorithm:
+Start
+Declare number, power, and result variables.
+Input the values of number and power from the user.
+  
+Check if power is even:
+If true, set increased_value = number * number.
+Repeat the multiplication power/2 times and store the result in result.
+
+If power is odd:
+Set increased_value = number * number.
+Repeat the multiplication (power/2) times and store the result in result.
+Multiply the result by number one more time.
+Output the value of result.
+End.
