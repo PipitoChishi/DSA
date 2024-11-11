@@ -1,0 +1,20 @@
+Write a C++ program that accepts n integers from the user, where n is provided by the user. 
+The program should find and print the pairs of numbers whose sum matches another number in the array. 
+For each such pair, print the indices of the two numbers that sum up to a third number in the array.
+
+Algorithm:
+Input the size of the array:
+Ask the user to input the number of elements (n).
+Input n numbers:
+
+Create an array of size n.
+Accept n integers from the user and store them in the array.
+Check for pairs whose sum matches a third number:
+
+Use three nested loops:
+Outer loop: Iterate over the first number (x).
+Middle loop: Iterate over the second number (y), ensuring it is after x.
+Inner loop: Iterate over all numbers (z) to check if the sum of numbers[x] and numbers[y] equals numbers[z].
+Output the result:
+
+If the sum of numbers[x] and numbers[y] equals numbers[z], print the indices of the numbers (x+1, y+1, z+1).
