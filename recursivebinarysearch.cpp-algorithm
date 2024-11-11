@@ -1,0 +1,32 @@
+Write a program that implements binary search recursively to find an element in a sorted array.
+The program will first prompt the user to input the number of elements, the array elements, 
+and then the value to search for. The program will output the index of the element if found, 
+or a message saying that the element is not in the array.
+
+Algorithm:
+Input the number of elements:
+Ask the user to input the number of elements (m1) in the array.
+  
+Input the array elements:
+Create an array/vector to store the elements.
+Prompt the user to enter each element in the array.
+  
+Input the value to search for:
+Ask the user for the element (value) they want to search for in the array.
+  
+Sort the array:
+Sort the array in ascending order using std::sort.
+
+Perform binary search:
+Set low = 0 and high = size of array - 1.
+  
+While low <= high:
+Calculate the middle index mid = low + (high - low) / 2.
+If the middle element equals the value, print the index and stop.
+If the middle element is less than the value, search in the right half (low = mid + 1).
+If the middle element is greater than the value, search in the left half (high = mid - 1).
+
+Output the result:
+If the value is found, print its index.
+If the value is not found, print a message stating that the element is not present.
+End the program.
