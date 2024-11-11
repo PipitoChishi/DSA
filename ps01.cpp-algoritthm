@@ -1,0 +1,26 @@
+Algorithm:
+Input the array:
+Take the number of elements, n, and then take n values as the heights of the containers (into an array arr[]).
+
+Initialize variables:
+Set max_volume to 0, which will store the maximum volume.
+Set two pointers: left at index 0 and right at index n-1.
+  
+Find the maximum volume:
+While the left pointer is less than the right pointer:
+Calculate the height as the minimum of arr[left] and arr[right].
+Calculate the width as right - left.
+Calculate the volume as height * width.
+Update max_volume if the current volume is greater than the previous max_volume.
+Move the left pointer to the right if arr[left] is smaller than arr[right], or move the right pointer to the left if arr[right] is smaller or equal to arr[left].
+
+Calculate the triangle area:
+After finding the maximum volume, calculate the base as right - left.
+Calculate the height as the absolute difference between arr[left] and arr[right].
+
+Use the formula to calculate the triangle area:
+Area=1/2×base×height
+Output the results:
+
+Print the max_volume of water that can be stored between two containers.
+Print the area of the triangle formed between the two containers.
