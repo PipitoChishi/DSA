@@ -256,7 +256,8 @@ int main()
             break;
 
         case 7:
-            cout << "\033[2J\033[1;1H"; // Clear screen for Unix-based systems
+             #ifdef _WIN32
+                system("cls");  
             break;
 
         case 0:
