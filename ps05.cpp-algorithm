@@ -1,0 +1,19 @@
+Write a C++ program that accepts n consecutive natural numbers and checks if any two numbers
+are not consecutive by comparing their least significant bits. If two numbers are not consecutive, 
+the program should identify the missing number between them.
+
+Algorithm:
+Input the n numbers:
+
+Accept n natural numbers from the user.
+Convert the numbers to binary using bitset:
+
+Use the bitset to represent the numbers in their binary form, ensuring the numbers are represented in 32 bits.
+
+Check for consecutive numbers:
+Compare the least significant bit (LSB) of each pair of consecutive numbers.
+If the LSBs of two numbers are the same (either both 0 or both 1), then the numbers are not consecutive.
+  
+Identify the missing number:
+If the two numbers are not consecutive, output the numbers and state that the missing number lies between them.
+End the program.
